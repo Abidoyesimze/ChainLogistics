@@ -609,7 +609,7 @@
                 "bytes": "0000000000000000000000000000000000000000000000000000000000000002"
               },
               {
-                "symbol": "get_event_count"
+                "symbol": "get_product"
               }
             ],
             "data": {
@@ -632,7 +632,7 @@
                 "symbol": "fn_return"
               },
               {
-                "symbol": "get_event_count"
+                "symbol": "get_product"
               }
             ],
             "data": {
@@ -693,7 +693,7 @@
                   "string": "contract try_call failed"
                 },
                 {
-                  "symbol": "get_event_count"
+                  "symbol": "get_product"
                 },
                 {
                   "vec": [

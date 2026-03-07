@@ -2893,18 +2893,11 @@
                 "bytes": "0000000000000000000000000000000000000000000000000000000000000002"
               },
               {
-                "symbol": "get_event_count_by_type"
+                "symbol": "get_product"
               }
             ],
             "data": {
-              "vec": [
-                {
-                  "string": "PROD1"
-                },
-                {
-                  "symbol": "created"
-                }
-              ]
+              "string": "PROD1"
             }
           }
         }
@@ -2923,11 +2916,125 @@
                 "symbol": "fn_return"
               },
               {
-                "symbol": "get_event_count_by_type"
+                "symbol": "get_product"
               }
             ],
             "data": {
-              "u64": 0
+              "map": [
+                {
+                  "key": {
+                    "symbol": "active"
+                  },
+                  "val": {
+                    "bool": true
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "category"
+                  },
+                  "val": {
+                    "string": "Category"
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "certifications"
+                  },
+                  "val": {
+                    "vec": []
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "created_at"
+                  },
+                  "val": {
+                    "u64": 0
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "custom"
+                  },
+                  "val": {
+                    "map": []
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "deactivation_info"
+                  },
+                  "val": {
+                    "vec": []
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "description"
+                  },
+                  "val": {
+                    "string": "Description"
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "id"
+                  },
+                  "val": {
+                    "string": "PROD1"
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "media_hashes"
+                  },
+                  "val": {
+                    "vec": []
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "name"
+                  },
+                  "val": {
+                    "string": "Test Product"
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "origin"
+                  },
+                  "val": {
+                    "map": [
+                      {
+                        "key": {
+                          "symbol": "location"
+                        },
+                        "val": {
+                          "string": "Origin"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "owner"
+                  },
+                  "val": {
+                    "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDR4"
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "tags"
+                  },
+                  "val": {
+                    "vec": []
+                  }
+                }
+              ]
             }
           }
         }
