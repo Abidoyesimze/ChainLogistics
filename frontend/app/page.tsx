@@ -22,7 +22,7 @@ export default function Home() {
         <UseCases />
         <TrustBlockchain />
         <CTA />
-      </main>
+    </main>
       <Footer />
     </div>
   );

@@ -7,7 +7,7 @@ export function Hero() {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-     
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, []);
   return (
@@ -24,7 +24,6 @@ export function Hero() {
               className="mr-2 h-4 w-4"
               fill="currentColor"
               viewBox="0 0 20 20"
-              aria-hidden="true"
             >
               <path
                 fillRule="evenodd"
@@ -63,7 +62,6 @@ export function Hero() {
                 className="h-5 w-5 text-green-500"
                 fill="currentColor"
                 viewBox="0 0 20 20"
-                aria-hidden="true"
               >
                 <path
                   fillRule="evenodd"
@@ -78,7 +76,6 @@ export function Hero() {
                 className="h-5 w-5 text-green-500"
                 fill="currentColor"
                 viewBox="0 0 20 20"
-                aria-hidden="true"
               >
                 <path
                   fillRule="evenodd"
