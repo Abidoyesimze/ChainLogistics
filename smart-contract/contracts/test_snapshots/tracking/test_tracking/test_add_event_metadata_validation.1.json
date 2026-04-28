@@ -677,6 +677,24 @@
                       "key": {
                         "vec": [
                           {
+<<<<<<< HEAD
+=======
+                            "symbol": "ReentrancyLock"
+                          },
+                          {
+                            "symbol": "register_product"
+                          }
+                        ]
+                      },
+                      "val": {
+                        "bool": false
+                      }
+                    },
+                    {
+                      "key": {
+                        "vec": [
+                          {
+>>>>>>> 18f76728a520595c4a03557f0dbdb515bafec719
                             "symbol": "TotalProducts"
                           }
                         ]

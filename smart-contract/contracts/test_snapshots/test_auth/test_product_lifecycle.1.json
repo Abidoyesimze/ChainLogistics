@@ -723,11 +723,19 @@
                       "key": {
                         "vec": [
                           {
+<<<<<<< HEAD
                             "symbol": "TotalProducts"
+=======
+                            "symbol": "ReentrancyLock"
+                          },
+                          {
+                            "symbol": "register_product"
+>>>>>>> 18f76728a520595c4a03557f0dbdb515bafec719
                           }
                         ]
                       },
                       "val": {
+<<<<<<< HEAD
                         "u64": "1"
                       }
                     }
@@ -774,6 +782,52 @@
               },
               "durability": "temporary",
               "val": "void"
+=======
+                        "bool": false
+                      }
+                    },
+                    {
+                      "key": {
+                        "vec": [
+                          {
+                            "symbol": "TotalProducts"
+                          }
+                        ]
+                      },
+                      "val": {
+                        "u64": "1"
+                      }
+                    }
+                  ]
+                }
+              }
+>>>>>>> 18f76728a520595c4a03557f0dbdb515bafec719
+            }
+          },
+          "ext": "v0"
+        },
+<<<<<<< HEAD
+        "live_until": 6311999
+=======
+        "live_until": 4095
+>>>>>>> 18f76728a520595c4a03557f0dbdb515bafec719
+      },
+      {
+        "entry": {
+          "last_modified_ledger_seq": 0,
+          "data": {
+            "contract_data": {
+              "ext": "v0",
+<<<<<<< HEAD
+=======
+              "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4",
+              "key": {
+                "ledger_key_nonce": {
+                  "nonce": "801925984706572462"
+                }
+              },
+              "durability": "temporary",
+              "val": "void"
             }
           },
           "ext": "v0"
@@ -786,6 +840,27 @@
           "data": {
             "contract_data": {
               "ext": "v0",
+              "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM",
+              "key": {
+                "ledger_key_nonce": {
+                  "nonce": "1033654523790656264"
+                }
+              },
+              "durability": "temporary",
+              "val": "void"
+            }
+          },
+          "ext": "v0"
+        },
+        "live_until": 6311999
+      },
+      {
+        "entry": {
+          "last_modified_ledger_seq": 0,
+          "data": {
+            "contract_data": {
+              "ext": "v0",
+>>>>>>> 18f76728a520595c4a03557f0dbdb515bafec719
               "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM",
               "key": {
                 "ledger_key_nonce": {
