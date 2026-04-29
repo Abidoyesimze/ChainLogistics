@@ -4,7 +4,10 @@ import { AppProviders } from "@/lib/state/providers";
 import { MonitoringBootstrap, PerformanceBudgetAlerts } from "@/components/analytics";
 import { Toaster } from "@/components/ui/sonner";
 import { ToastContainer } from "@/components/ui/ToastContainer";
+import { SkipToContentLink } from "@/components/SkipToContentLink";
 import "./globals.css";
+
+const enablePerformanceToasts = process.env.NODE_ENV !== "production";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -57,8 +60,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <AppProviders>
+          <SkipToContentLink />
           <MonitoringBootstrap />
-          <PerformanceBudgetAlerts />
+          {enablePerformanceToasts ? <PerformanceBudgetAlerts /> : null}
           {children}
           <Toaster />
           <ToastContainer />
